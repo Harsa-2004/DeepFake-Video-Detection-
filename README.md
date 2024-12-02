@@ -37,37 +37,37 @@ The model is trained on the FaceForensics++ dataset and implemented using PyTorc
 
 **Data Preprocessing**
 
-      > Extract frames from videos using OpenCV.
+   > Extract frames from videos using OpenCV.
       
-      > Normalize and resize frames for 3D CNN input.
+   > Normalize and resize frames for 3D CNN input.
       
-      > Split data into training, validation, and test sets.
+   > Split data into training, validation, and test sets.
 
       
       
 **Model Training**
 
-      > Implemented a 3D CNN architecture to capture spatial and temporal features.
+   > Implemented a 3D CNN architecture to capture spatial and temporal features.
       
-      > Used Cross-Entropy Loss as the loss function and Adam optimizer for training.
+   > Used Cross-Entropy Loss as the loss function and Adam optimizer for training.
       
-      > Regularized the model using Dropout to prevent overfitting.
+   > Regularized the model using Dropout to prevent overfitting.
       
 **Evaluation**
 
-      > Evaluated performance using metrics like accuracy, precision, recall, and F1-score.
+   > Evaluated performance using metrics like accuracy, precision, recall, and F1-score.
       
-      > Tested the model on FaceForensics++ to ensure robustness.
+   > Tested the model on FaceForensics++ to ensure robustness.
 
       
 **Deployment**
 
-      > Designed a pipeline for real-time deepfake detection using video streams.
+   > Designed a pipeline for real-time deepfake detection using video streams.
 
       
 **Model Architecture**
 
-      > The 3D CNN architecture processes sequences of video frames (spatial data) and learns temporal relationships between them. Key layers include:
+   > The 3D CNN architecture processes sequences of video frames (spatial data) and learns temporal relationships between them. Key layers include:
 
 **3D Convolutional Layers:** Capture spatial and temporal features simultaneously.
 
